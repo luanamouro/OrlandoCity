@@ -137,8 +137,9 @@ header #logotipo {
 }
 
 #menu{
-    margin: 26px 0;
+    margin: 12px 0;
 }
+
 
 #menu ul{
     list-style: none;
@@ -151,17 +152,31 @@ header #logotipo {
     display:inline-block;
     margin:0;
     padding:0;
-    font-family: Open Sans;
+    font-family: "OpenSans";
 }
 #menu li.search{
     width:182px;
 }
 
 #menu li.search input {
-    background-color: #SC2D90;
+    background-color: #5C2D90;
     color: #FFF;
+    border: none;
     height: 30px;
     line-height: 30px;
+    padding-left: 8px;
+}
+
+#menu li.search ::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+#menu li.search button {
+    background:none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top:7px;
 }
 
 #menu li.button-search {
@@ -169,11 +184,20 @@ header #logotipo {
 
 }
 
+#menu li.search button i {
+    font-size: 14px;
+    color:rgba (255, 255, 255, .5);
+}
 
 #menu li a {
     color: #FFF;
     font-size: 16px;
     padding: 10px 25px;
+    font-weight: bold;
+}
+
+#menu li.search .input-group {
+    top:8px;
 }
 
 #banner {
@@ -240,7 +264,9 @@ header #logotipo {
     width:100%;
     height:200px;
     text-align: center; 
-    padding: 20px 0; 
+    padding: 20px 0;
+    position: relative;
+     
 }
 
 #estatísticas p {
