@@ -275,7 +275,7 @@ header #logotipo {
     font-family: 'Open Sans-Light';
     font-size: 64px;
     margin-top: 36px;
-    margin-bottom: 10px;
+    
 }
 
 #estatísticas div {
@@ -290,15 +290,6 @@ header #logotipo {
     display:block;
 }
 
-#estatísticas .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#estatísticas .col-md-4 {
-    flex: 1; /* Faz com que cada coluna tenha a mesma largura */
-}
 
 #call-to-action {
     text-align: center;
